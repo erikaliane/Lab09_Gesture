@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab09_Gesture.MainPage">
+    <StackLayout>
+        <StackLayout Padding="30" >
+
+            <Button x:Name="Item1" Text="TapDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item2" Text="PinchDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item3" Text="PandDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item4" Text="SwipeDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
